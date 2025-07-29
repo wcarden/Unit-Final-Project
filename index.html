@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h3 class="display-4">Favorite Dinos</h3>
+        <div id="dino-container" class="my-3"></div>
+        <hr class="my-4">
+        <form>
+            <label>Enter Your Favorite!</label>
+            <textarea class="form-control w-25" rows="1" id="dino-name" placeholder="Dinosaur"></textarea>
+            <textarea class="form-control w-25" id="dino-textarea" placeholder="Explanation"></textarea>
+            <button class="btn btn-success my-3" onclick="onSaveDinoClick(event)">Save</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

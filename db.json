@@ -1,0 +1,95 @@
+{
+  "diet": [
+    {
+      "id": 1,
+      "title": "Carnivore"
+    },
+    {
+      "id": 2,
+      "title": "Herbivore"
+    },
+    {
+      "id": 3,
+      "title": "Omnivore"
+    }
+  ],
+  "dinosaur": [
+    {
+      "id": 1,
+      "name": "Tryannosaurs Rex",
+      "dietId": 1
+    },
+    {
+      "id": 2,
+      "name": "Triceratops",
+      "dietId": 2
+    },
+    {
+      "id": 3,
+      "name": "Gallimimus",
+      "dietId": 3
+    },
+    {
+      "id": 4,
+      "name": "Stegosaurus",
+      "dietId": 2
+    },
+    {
+      "id": 5,
+      "name": "Oviraptor",
+      "dietId": 3
+    },
+    {
+      "id": 6,
+      "name": "Spinosaurus",
+      "dietId": 1
+    },
+    {
+      "id": 7,
+      "name": "Ankylosaurus",
+      "dietId": 2
+    },
+    {
+      "id": 8,
+      "name": "Troodon",
+      "dietId": 3
+    },
+    {
+      "id": 9,
+      "name": "Velociraptor",
+      "dietId": 1
+    },
+    {
+      "id": 10,
+      "name": "Brachiosaurus",
+      "dietId": 2
+    }
+  ],
+  "favorite": [
+    {
+      "id": 1,
+      "author": "Alan Grant",
+      "text": "They're so fascinating.",
+      "dino": "Velociraptor"
+    },
+    {
+      "id": 2,
+      "author": "Will",
+      "text": "I like how they've changed over the years.",
+      "dino": "Spinosaurus"
+    },
+    {
+      "id": 3,
+      "author": "John Hammond",
+      "text": "It's my pride and joy.",
+      "dino": "Tyrannosaurus Rex"
+    },
+    {
+      "author": "Will",
+      "dinosaurId": 6,
+      "text": "The evolution over the years is cool!",
+      "dino": "Spinosaurus",
+      "id": 4
+    }
+  ]
+}
